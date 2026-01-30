@@ -1,0 +1,69 @@
+# ==========================
+# Python Virtual Environment
+# ==========================
+myvenv/
+venv/
+.env/
+*.env
+<<<<<<< HEAD
+.venv/
+=======
+>>>>>>> a15775eaedd71a4126cdaa69fd375de846222935
+
+# ==========================
+# Python Cache / Build Files
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ==========================
+# Temp / Output / Extracted
+# ==========================
+temp/
+extracted_attachments/
+*.pdf
+*.csv
+*.xlsx
+*.json
+
+# (keep sample files if needed)
+!readme.md
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+.history/
+
+# ==========================
+# OS Specific
+# ==========================
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# Linux
+.cache/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Environment / Secrets
+# ==========================
+.env
+*.env
+# Local env files
+.env.local
